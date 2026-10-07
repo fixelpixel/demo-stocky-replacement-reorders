@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "mode": "offline-draft",
+  "synthetic": true,
+  "shop": "demo-store.example",
+  "asOf": "2026-10-01",
+  "ordersRead": 94,
+  "excludedOrders": {
+    "outsideWindow": 2,
+    "cancelled": 1,
+    "test": 1
+  },
+  "variants": 8,
+  "purchaseOrders": [
+    {
+      "id": "PO-2026-10-01-demo-supplier-home",
+      "status": "draft",
+      "approvalEligible": true,
+      "totalUnits": 66,
+      "totalMinor": 27000
+    },
+    {
+      "id": "PO-2026-10-01-demo-supplier-light",
+      "status": "draft",
+      "approvalEligible": false,
+      "totalUnits": 20,
+      "totalMinor": 24000
+    },
+    {
+      "id": "PO-2026-10-01-demo-supplier-paper",
+      "status": "draft",
+      "approvalEligible": true,
+      "totalUnits": 45,
+      "totalMinor": 13500
+    }
+  ],
+  "inputSha256": "700be3e3d15f384940ea41d4228a42ae82e96efb208c48528055085df6ceb6dc",
+  "files": [
+    {
+      "file": "forecast.json",
+      "sha256": "e722dfa62fa8454bb0bbd01078afceddb383a251e600c2f42e37fe78a8586d56"
+    },
+    {
+      "file": "forecast.csv",
+      "sha256": "56c0293183c38d65f380d62ef48b483873a81c5fe84ca1063404374037d28bc2"
+    },
+    {
+      "file": "PO-2026-10-01-demo-supplier-home.json",
+      "sha256": "a5e6ffb1286f1333003c66ab8d2ae9ff95503de47fdb67de5f2c8e9209f8328f"
+    },
+    {
+      "file": "PO-2026-10-01-demo-supplier-home.csv",
+      "sha256": "ca9a7c6b02ef3c6ca6cd97309eb19b39d790914e02560127b039fd0b766fd1fb"
+    },
+    {
+      "file": "PO-2026-10-01-demo-supplier-home.email.txt",
+      "sha256": "e370937e715251c7531c1bbdf2e2dcf32187a8a5555c45a51a57791361c6255f"
+    },
+    {
+      "file": "PO-2026-10-01-demo-supplier-light.json",
+      "sha256": "673a9fdbcfb167c7f578907d05c0393ee3b2d5de1e4edc8992da189a2a8a4d10"
+    },
+    {
+      "file": "PO-2026-10-01-demo-supplier-light.csv",
+      "sha256": "298101d095ca1c7f0eff9f4e15413442440e332ef6d9668826d6551118d79070"
+    },
+    {
+      "file": "PO-2026-10-01-demo-supplier-light.email.txt",
+      "sha256": "991940e764484548e48dbf9dc4c8231ca004e8293a706e8f05383cf159bbed8f"
+    },
+    {
+      "file": "PO-2026-10-01-demo-supplier-paper.json",
+      "sha256": "01c0ab5809a798a88e44d6955d5c2cd01850f21e9e0ffe5be9a1c847081dd187"
+    },
+    {
+      "file": "PO-2026-10-01-demo-supplier-paper.csv",
+      "sha256": "63a4b7206d353fdbd1b42abfb2b6292f3ed10f11e311677775ba2a1add0a7f35"
+    },
+    {
+      "file": "PO-2026-10-01-demo-supplier-paper.email.txt",
+      "sha256": "c1bafa33803d44c37badb99a5e1e50de0a07ece52abf67fe4720da24316e40da"
+    }
+  ],
+  "stockWrites": 0,
+  "emailsSent": 0,
+  "networkRequests": 0
+}

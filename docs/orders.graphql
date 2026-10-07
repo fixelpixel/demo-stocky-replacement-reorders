@@ -1,0 +1,26 @@
+# Documentation only. Independently paginate orders AND each order's lineItems.
+query ReorderOrders($first: Int!, $after: String, $query: String!) {
+  orders(first: $first, after: $after, query: $query, sortKey: CREATED_AT) {
+    nodes {
+      id
+      createdAt
+      cancelledAt
+      test
+      lineItems(first: 25) {
+        nodes { id quantity currentQuantity variant { id } }
+        pageInfo { hasNextPage endCursor }
+      }
+    }
+    pageInfo { hasNextPage endCursor }
+  }
+}
+
+query ReorderOrderLineItems($orderId: ID!, $after: String) {
+  order(id: $orderId) {
+    id
+    lineItems(first: 100, after: $after) {
+      nodes { id quantity currentQuantity variant { id } }
+      pageInfo { hasNextPage endCursor }
+    }
+  }
+}

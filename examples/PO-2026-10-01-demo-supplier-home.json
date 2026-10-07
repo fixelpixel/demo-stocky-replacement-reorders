@@ -1,0 +1,82 @@
+{
+  "id": "PO-2026-10-01-demo-supplier-home",
+  "status": "draft",
+  "synthetic": true,
+  "shop": "demo-store.example",
+  "asOf": "2026-10-01",
+  "locationId": "demo-location-main",
+  "window": {
+    "from": "2026-07-03T00:00:00.000Z",
+    "toExclusive": "2026-10-01T00:00:00.000Z",
+    "days": 90
+  },
+  "reviewDays": 14,
+  "supplier": {
+    "id": "demo-supplier-home",
+    "name": "Demo Home Supplies",
+    "email": "orders@demo-home.example",
+    "currency": "USD",
+    "minimumOrderUnits": 60,
+    "minimumOrderValueMinor": 20000
+  },
+  "lines": [
+    {
+      "variantId": "demo-variant-mug",
+      "sku": "DEMO-MUG",
+      "title": "Demo mug",
+      "quantity": 42,
+      "packSize": 6,
+      "minimumLineUnits": 12,
+      "unitCostMinor": 500,
+      "lineTotalMinor": 21000,
+      "calculation": {
+        "netUnits": 180,
+        "sellingDays": 90,
+        "velocityPerDay": 2,
+        "available": 8,
+        "incoming": 6,
+        "inventoryPosition": 14,
+        "leadTimeDays": 10,
+        "safetyStockUnits": 6,
+        "reorderPoint": 26,
+        "targetStock": 54,
+        "rawQuantity": 40
+      },
+      "warnings": [
+        "verify_incoming_arrival_before_lead_time"
+      ]
+    },
+    {
+      "variantId": "demo-variant-tea",
+      "sku": "DEMO-TEA",
+      "title": "Demo tea tin",
+      "quantity": 24,
+      "packSize": 8,
+      "minimumLineUnits": 8,
+      "unitCostMinor": 250,
+      "lineTotalMinor": 6000,
+      "calculation": {
+        "netUnits": 90,
+        "sellingDays": 90,
+        "velocityPerDay": 1,
+        "available": 5,
+        "incoming": 0,
+        "inventoryPosition": 5,
+        "leadTimeDays": 7,
+        "safetyStockUnits": 4,
+        "reorderPoint": 11,
+        "targetStock": 25,
+        "rawQuantity": 20
+      },
+      "warnings": []
+    }
+  ],
+  "totalUnits": 66,
+  "totalMinor": 27000,
+  "minimums": {
+    "shortfallUnits": 0,
+    "shortfallMinor": 0
+  },
+  "approvalEligible": true,
+  "requiresHumanApproval": true
+}

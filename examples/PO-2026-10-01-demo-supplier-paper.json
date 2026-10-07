@@ -1,0 +1,59 @@
+{
+  "id": "PO-2026-10-01-demo-supplier-paper",
+  "status": "draft",
+  "synthetic": true,
+  "shop": "demo-store.example",
+  "asOf": "2026-10-01",
+  "locationId": "demo-location-main",
+  "window": {
+    "from": "2026-07-03T00:00:00.000Z",
+    "toExclusive": "2026-10-01T00:00:00.000Z",
+    "days": 90
+  },
+  "reviewDays": 14,
+  "supplier": {
+    "id": "demo-supplier-paper",
+    "name": "Demo Paper Supplies",
+    "email": "orders@demo-paper.example",
+    "currency": "USD",
+    "minimumOrderUnits": 40,
+    "minimumOrderValueMinor": 10000
+  },
+  "lines": [
+    {
+      "variantId": "demo-variant-notebook",
+      "sku": "DEMO-NOTE",
+      "title": "Demo notebook, blue",
+      "quantity": 45,
+      "packSize": 5,
+      "minimumLineUnits": 10,
+      "unitCostMinor": 300,
+      "lineTotalMinor": 13500,
+      "calculation": {
+        "netUnits": 20,
+        "sellingDays": 10,
+        "velocityPerDay": 2,
+        "available": 0,
+        "incoming": 0,
+        "inventoryPosition": 0,
+        "leadTimeDays": 7,
+        "safetyStockUnits": 2,
+        "reorderPoint": 16,
+        "targetStock": 44,
+        "rawQuantity": 44
+      },
+      "warnings": [
+        "new_product",
+        "limited_history"
+      ]
+    }
+  ],
+  "totalUnits": 45,
+  "totalMinor": 13500,
+  "minimums": {
+    "shortfallUnits": 0,
+    "shortfallMinor": 0
+  },
+  "approvalEligible": true,
+  "requiresHumanApproval": true
+}

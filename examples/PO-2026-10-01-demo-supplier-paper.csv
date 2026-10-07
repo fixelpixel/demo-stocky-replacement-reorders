@@ -1,0 +1,2 @@
+"po_id","status","approval_eligible","supplier_id","currency","variant_id","sku","title","quantity","pack_size","unit_cost_minor","line_total_minor","warnings"
+"PO-2026-10-01-demo-supplier-paper","draft","true","demo-supplier-paper","USD","demo-variant-notebook","DEMO-NOTE","Demo notebook, blue","45","5","300","13500","new_product;limited_history"

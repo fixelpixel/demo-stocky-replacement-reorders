@@ -1,0 +1,58 @@
+{
+  "id": "PO-2026-10-01-demo-supplier-light",
+  "status": "draft",
+  "synthetic": true,
+  "shop": "demo-store.example",
+  "asOf": "2026-10-01",
+  "locationId": "demo-location-main",
+  "window": {
+    "from": "2026-07-03T00:00:00.000Z",
+    "toExclusive": "2026-10-01T00:00:00.000Z",
+    "days": 90
+  },
+  "reviewDays": 14,
+  "supplier": {
+    "id": "demo-supplier-light",
+    "name": "Demo Light Supplies",
+    "email": "orders@demo-light.example",
+    "currency": "USD",
+    "minimumOrderUnits": 16,
+    "minimumOrderValueMinor": 30000
+  },
+  "lines": [
+    {
+      "variantId": "demo-variant-lamp",
+      "sku": "DEMO-LAMP",
+      "title": "Demo lamp",
+      "quantity": 20,
+      "packSize": 4,
+      "minimumLineUnits": 20,
+      "unitCostMinor": 1200,
+      "lineTotalMinor": 24000,
+      "calculation": {
+        "netUnits": 30,
+        "sellingDays": 60,
+        "velocityPerDay": 0.5,
+        "available": 1,
+        "incoming": 0,
+        "inventoryPosition": 1,
+        "leadTimeDays": 14,
+        "safetyStockUnits": 4,
+        "reorderPoint": 11,
+        "targetStock": 18,
+        "rawQuantity": 17
+      },
+      "warnings": [
+        "stockout_adjusted"
+      ]
+    }
+  ],
+  "totalUnits": 20,
+  "totalMinor": 24000,
+  "minimums": {
+    "shortfallUnits": 0,
+    "shortfallMinor": 6000
+  },
+  "approvalEligible": false,
+  "requiresHumanApproval": true
+}

@@ -1,0 +1,21 @@
+DRAFT ONLY - not sent. Human approval required before any supplier communication.
+Approval eligibility: ready for human review
+Minimum shortfalls: 0 units; 0 USD cents.
+To: orders@demo-paper.example
+Subject: Purchase order draft PO-2026-10-01-demo-supplier-paper
+Attachment draft: PO-2026-10-01-demo-supplier-paper.csv
+
+Hello Demo Paper Supplies,
+
+Please review the proposed order for demo-store.example:
+- DEMO-NOTE: 45 units (9 packs of 5)
+
+Estimated goods total: 135.00 USD, excluding freight and tax.
+Please confirm availability, pricing, terms and expected delivery date.
+
+Demo purchasing team
+
+Internal review notes:
+DEMO-NOTE: new_product, limited_history
+
+This file is a review artifact. The demo has no email transport.

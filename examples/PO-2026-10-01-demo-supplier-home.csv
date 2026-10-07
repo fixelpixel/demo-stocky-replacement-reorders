@@ -1,0 +1,3 @@
+"po_id","status","approval_eligible","supplier_id","currency","variant_id","sku","title","quantity","pack_size","unit_cost_minor","line_total_minor","warnings"
+"PO-2026-10-01-demo-supplier-home","draft","true","demo-supplier-home","USD","demo-variant-mug","DEMO-MUG","Demo mug","42","6","500","21000","verify_incoming_arrival_before_lead_time"
+"PO-2026-10-01-demo-supplier-home","draft","true","demo-supplier-home","USD","demo-variant-tea","DEMO-TEA","Demo tea tin","24","8","250","6000",""

@@ -1,0 +1,23 @@
+DRAFT ONLY - not sent. Human approval required before any supplier communication.
+Approval eligibility: ready for human review
+Minimum shortfalls: 0 units; 0 USD cents.
+To: orders@demo-home.example
+Subject: Purchase order draft PO-2026-10-01-demo-supplier-home
+Attachment draft: PO-2026-10-01-demo-supplier-home.csv
+
+Hello Demo Home Supplies,
+
+Please review the proposed order for demo-store.example:
+- DEMO-MUG: 42 units (7 packs of 6)
+- DEMO-TEA: 24 units (3 packs of 8)
+
+Estimated goods total: 270.00 USD, excluding freight and tax.
+Please confirm availability, pricing, terms and expected delivery date.
+
+Demo purchasing team
+
+Internal review notes:
+DEMO-MUG: verify_incoming_arrival_before_lead_time
+DEMO-TEA: no data warnings
+
+This file is a review artifact. The demo has no email transport.

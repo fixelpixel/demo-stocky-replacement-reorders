@@ -1,0 +1,21 @@
+DRAFT ONLY - not sent. Human approval required before any supplier communication.
+Approval eligibility: BLOCKED: supplier minimum not met
+Minimum shortfalls: 0 units; 6000 USD cents.
+To: orders@demo-light.example
+Subject: Purchase order draft PO-2026-10-01-demo-supplier-light
+Attachment draft: PO-2026-10-01-demo-supplier-light.csv
+
+Hello Demo Light Supplies,
+
+Please review the proposed order for demo-store.example:
+- DEMO-LAMP: 20 units (5 packs of 4)
+
+Estimated goods total: 240.00 USD, excluding freight and tax.
+Please confirm availability, pricing, terms and expected delivery date.
+
+Demo purchasing team
+
+Internal review notes:
+DEMO-LAMP: stockout_adjusted
+
+This file is a review artifact. The demo has no email transport.

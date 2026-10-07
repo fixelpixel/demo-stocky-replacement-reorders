@@ -1,0 +1,5 @@
+[
+  { "id": "demo-supplier-home", "name": "Demo Home Supplies", "email": "orders@demo-home.example", "currency": "USD", "minimumOrderUnits": 60, "minimumOrderValueMinor": 20000 },
+  { "id": "demo-supplier-light", "name": "Demo Light Supplies", "email": "orders@demo-light.example", "currency": "USD", "minimumOrderUnits": 16, "minimumOrderValueMinor": 30000 },
+  { "id": "demo-supplier-paper", "name": "Demo Paper Supplies", "email": "orders@demo-paper.example", "currency": "USD", "minimumOrderUnits": 40, "minimumOrderValueMinor": 10000 }
+]

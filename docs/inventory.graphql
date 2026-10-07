@@ -1,0 +1,22 @@
+# Documentation only. The demo never executes GraphQL or reads credentials.
+# Read quantities at the selected location; do not sum all warehouse stock.
+query ReorderInventory($first: Int!, $after: String, $locationId: ID!) {
+  productVariants(first: $first, after: $after) {
+    nodes {
+      id
+      sku
+      title
+      product { id title createdAt }
+      inventoryItem {
+        id
+        tracked
+        inventoryLevel(locationId: $locationId) {
+          id
+          location { id name }
+          quantities(names: ["available", "incoming"]) { name quantity }
+        }
+      }
+    }
+    pageInfo { hasNextPage endCursor }
+  }
+}
